@@ -5,6 +5,12 @@ body {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 header {
   background-color: #beadfa;
   display: flex;
@@ -12,7 +18,6 @@ header {
   align-items: center;
   padding: 0 4em;
   height: 78px;
-  border-bottom: 1px solid #000000;
 }
 
 .profile-picture img {
@@ -45,7 +50,6 @@ nav ul li a {
   font-size: 1.25em;
   color: #ffffff;
   font-weight: 700;
-
 }
 
 .search-bar {
@@ -64,4 +68,45 @@ nav ul li a {
   width: 80%;
   margin-left: 10px;
   font-family: "Poppins", serif;
+}
+
+/* About us */
+.about-us {
+  background-color: #8e8ffa;
+  height: 563px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid #000000;
+  padding: 0 30%;
+}
+
+.about-us h1,
+.about-us h3 {
+  color: #000000;
+}
+
+.about-us h1 {
+  font-weight: 800;
+  font-size: 3.375em;
+}
+
+.about-us h2,
+.about-us h3 {
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 3.375em;
+  color: #ffffff;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.about-us h3 {
+  font-weight: 400;
+  font-size: 1.375em;
 }
